@@ -17,4 +17,12 @@ docker
     docker registry(docker hub) 'registros para todas as imagens do docker, nuvem, posso baixar varias ou criar minhas proprias'
     docker file:
       receita para montar minha propria imagem
+sequelize
+  https://medium.com/@diomalta/migrations-e-seeders-no-sequelizejs-67ba3571ed0e
+  criar migration
+    yarn sequelize migration:create --name=create-users
+    yarn sequelize db:migrate
+    yarn sequelize db:migrate:undo
+    yarn sequelize db:migrate:undo:all
+    
     
