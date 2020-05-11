@@ -1,0 +1,20 @@
+
+sucrase
+  deixa usar atualizações do javascript no node ('import from',)
+nodemon
+  atualiza servidor ao fazer alteração no arquivo
+  usar sucrase com nodemon é possivel nas config do nodemon execMap
+debugger vs code
+  gerar arquivo
+serviços
+  banco de dados, envio de email, armazenar dados('postgree, mysql'), 
+docker
+  criar ambientes isolados('container'), utilizando atraves de portas
+  fácil de remover e atualizar, subsistema rodando
+  conceitos:
+    imagem 'entradas o que posso colocar dentro do container, tem varias'
+    container 'é uma instancia de uma imagem'
+    docker registry(docker hub) 'registros para todas as imagens do docker, nuvem, posso baixar varias ou criar minhas proprias'
+    docker file:
+      receita para montar minha propria imagem
+    
