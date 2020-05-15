@@ -28,5 +28,22 @@ sequelize
     yarn sequelize db:migrate
     yarn sequelize db:migrate:undo
     yarn sequelize db:migrate:undo:all
+  comands sql js
+    retorna promisse
+    findOne
+    findByPk
+    create
+    dropTable
+controller
+  index
+    listar todos usuarios
+  show
+    buscar usuário especifico
+  esqueci
+    busca usuario especifico
+  store
+    cadastrar novo usuário
+  update
+  delete
     
     
